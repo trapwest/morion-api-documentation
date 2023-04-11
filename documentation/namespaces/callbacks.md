@@ -18,7 +18,7 @@ end)
 
 ### on\_paint
 
-Fired every frame. Most functions from the [`render`](broken-reference) namespace can only be used here.
+Fired every frame. Most functions from the draw namespace can only be used here.
 
 ```lua
 callbacks.init("on_paint", function()
