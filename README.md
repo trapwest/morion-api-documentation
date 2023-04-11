@@ -7,3 +7,6 @@ layout: landing
 
 # 🪨 Morion
 
+## Location <a href="#location" id="location"></a>
+
+* Scripts location: **`{csgo folder}/morion/scripts`**
