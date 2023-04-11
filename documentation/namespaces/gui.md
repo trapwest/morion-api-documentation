@@ -52,7 +52,7 @@ Sets the value of the bind.
 
 {% tabs %}
 {% tab title="groups" %}
-`gui.begin(group\_name: array of strings):` <mark style="color:purple;">`maximum: 4`</mark>
+`gui.begin(group_name: array of strings):` <mark style="color:purple;">`gui_group`</mark> <mark style="color:purple;">`maximum: 4`</mark>
 
 Creates a group with gui elements.
 
