@@ -4,7 +4,7 @@
 
 {% code lineNumbers="true" %}
 ```lua
-gui.get_keybind_mode( binds.double_tap )
+gui.get_bind_mode( binds.double_tap )
 ```
 {% endcode %}
 
