@@ -275,6 +275,20 @@ Render any text via the [`create_font` ](draw.md#create\_font)or [`create_weapon
 
 ### image
 
+`draw.image_quad(texture: texture, pos1: vector_2d, pos2: vector_2d, pos3: vector_2d, pos4: vector_2d[, color: color, rounding: number])`
+
+| Name         | Type            | Description                   |
+| ------------ | --------------- | ----------------------------- |
+| **texture**  | **`texture`**   | Texture.                      |
+| **pos1**     | **`vector_2d`** | First position.               |
+| **pos2**     | **`vector_2d`** | Second position.              |
+| **pos3**     | **`vector_2d`** | Third position.               |
+| **pos4**     | **`vector_2d`** | Fourth position.              |
+| **color**    | **`color`**     | Optional. Color of the image. |
+| **rounding** | **`number`**    | Optional. Image rounding.     |
+
+### image
+
 `draw.image(texture: texture, x: number, y: number, width: number, height: number, color: color[, rounding: number])`
 
 | Name         | Type          | Description               |

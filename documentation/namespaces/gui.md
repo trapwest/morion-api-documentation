@@ -241,7 +241,7 @@ Sets a table with items. [`new_combo`](gui.md#new\_combo) / [`new_list`](gui.md#
 | --------- | ------------ | ------------- |
 | **value** | **`string`** | Tooltip text. |
 
-Sets the tooltip of the menu element.
+Sets the tooltip of the gui element.
 
 ### :set\_visible
 
@@ -251,17 +251,17 @@ Sets the tooltip of the menu element.
 | --------- | ------------- | ----------------- |
 | **state** | **`boolean`** | Visibility state. |
 
-Sets the menu element visibility.
+Sets the gui element visibility.
 
 ### :set\_callback
 
 `element:set_callback(callback: function)`
 
-| Name         | Type           | Description                                                         |
-| ------------ | -------------- | ------------------------------------------------------------------- |
-| **callback** | **`function`** | Function that will be called when the menu item is interacted with. |
+| Name         | Type           | Description                                                           |
+| ------------ | -------------- | --------------------------------------------------------------------- |
+| **callback** | **`function`** | Function that will be called when the gui element is interacted with. |
 
-Sets the callback to the specified menu element.
+Sets the callback to the specified gui element.
 
 ### :set\_group
 
@@ -271,4 +271,4 @@ Sets the callback to the specified menu element.
 | --------- | ------------ | ----------- |
 | **group** | **`string`** | Group name. |
 
-Sets the group to the specified menu element.
+Sets the group to the specified gui element.
