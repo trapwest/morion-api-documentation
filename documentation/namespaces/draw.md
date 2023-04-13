@@ -221,13 +221,13 @@ Returns the size of the text.
 | **radius**   | **`number`** | Radius of the circle. |
 | **colorgs**  | **`color`**  | Color of the circle.  |
 
-### text
+### string
 
 {% hint style="info" %}
 Render any text via the [`create_font` ](draw.md#create\_font)or [`create_weapon_font`](draw.md#create\_weapon\_font) function.
 {% endhint %}
 
-`draw.text(font: font_object, x: number, y: number, color: color, text: string[, shadow: boolean, outline: boolean])`
+`draw.string(font: font_object, x: number, y: number, color: color, text: string[, shadow: boolean, outline: boolean])`
 
 | Name        | Type              | Description              |
 | ----------- | ----------------- | ------------------------ |
@@ -239,13 +239,13 @@ Render any text via the [`create_font` ](draw.md#create\_font)or [`create_weapon
 | **shadow**  | **`boolean`**     | Optional. Text shadow.   |
 | **outline** | **`boolean`**     | Optional. Text outline.  |
 
-### text\_gradient
+### gradient\_string
 
 {% hint style="info" %}
 Render any text via the [`create_font` ](draw.md#create\_font)or [`create_weapon_font`](draw.md#create\_weapon\_font) function.
 {% endhint %}
 
-`draw.text_gradient(font: font_object, x: number, y: number, color: color, second_color: color, text: string, smooth: number[, shadow: boolean, outline: boolean])`
+`draw.gradient_string(font: font_object, x: number, y: number, color: color, second_color: color, text: string, smooth: number[, shadow: boolean, outline: boolean])`
 
 | Name              | Type              | Description                 |
 | ----------------- | ----------------- | --------------------------- |
