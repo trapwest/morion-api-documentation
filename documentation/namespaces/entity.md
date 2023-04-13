@@ -30,8 +30,8 @@ Returns a pointer to the player's weapon entity.
 
 `entity.get_entity_from_handle(c_base_handle: handle):` <mark style="color:purple;">`entity`</mark>
 
-| Name              | Type         | Description   |
-| ----------------- | ------------ | ------------- |
+| Name       | Type                | Description   |
+| ---------- | ------------------- | ------------- |
 | **handle** | **`c_base_handle`** | entity handle |
 
 Returns entity from handle.
@@ -40,9 +40,9 @@ Returns entity from handle.
 
 `entity.get_entities_by_classid(integer: class_id):` <mark style="color:purple;">`entity`</mark>
 
-| Name              | Type         | Description   |
-| ----------------- | ------------ | ------------- |
-| **class_id** | **`integer`** | entity class id |
+| Name          | Type          | Description     |
+| ------------- | ------------- | --------------- |
+| **class\_id** | **`integer`** | entity class id |
 
 Returns all entities by class id.
 
@@ -66,36 +66,36 @@ Returns the table of pointers to entities.
 
 <summary>Field</summary>
 
-m\_flUpVelocity \
-m\_bInHitGroundAnimation \
-m\_bOnGround \
-m\_fDuckAmount \
-m\_fLandingDuckAdditiveSomething \
-m\_flCurrentFeetYaw \
-m\_flCurrentTorsoYaw \
-m\_flEyeYaw \
-m\_flFeetCycle \
-m\_flFeetSpeedForwardsOrSideWays \
-m\_flFeetSpeedUnknownForwardOrSideways \
-m\_flFeetYawRate \
-m\_flGoalFeetYaw \
-m\_flHeadHeightOrOffsetFromHittingGroundAnimation m\_flLastClientSideAnimationUpdateTime \
-m\_flLastOriginZ \
-m\_flLeanAmount \
-m\_flMovingFraction \
-m\_flPitch \
-m\_flSpeedNormalized \
-m\_flStopToFullRunningFraction \
-m\_flTimeSinceStartedMoving \
-m\_flTimeSinceStoppedMoving \
+m\_flUpVelocity\
+m\_bInHitGroundAnimation\
+m\_bOnGround\
+m\_fDuckAmount\
+m\_fLandingDuckAdditiveSomething\
+m\_flCurrentFeetYaw\
+m\_flCurrentTorsoYaw\
+m\_flEyeYaw\
+m\_flFeetCycle\
+m\_flFeetSpeedForwardsOrSideWays\
+m\_flFeetSpeedUnknownForwardOrSideways\
+m\_flFeetYawRate\
+m\_flGoalFeetYaw\
+m\_flHeadHeightOrOffsetFromHittingGroundAnimation m\_flLastClientSideAnimationUpdateTime\
+m\_flLastOriginZ\
+m\_flLeanAmount\
+m\_flMovingFraction\
+m\_flPitch\
+m\_flSpeedNormalized\
+m\_flStopToFullRunningFraction\
+m\_flTimeSinceStartedMoving\
+m\_flTimeSinceStoppedMoving\
 m\_iLastClientSideAnimationUpdateFramecount\
-m\_velocity \
-m\_vLastOrigin \
-m\_vOrigin \
-m\_vVelocityX \
+m\_velocity\
+m\_vLastOrigin\
+m\_vOrigin\
+m\_vVelocityX\
 m\_vVelocityY
 
-### :max\_desync\_delta
+#### :max\_desync\_delta
 
 `<anim_state>:max_desync_delta():` <mark style="color:purple;">`number`</mark>
 
@@ -115,15 +115,15 @@ Returns the player animstate.
 
 <summary>Field</summary>
 
-m\_bClientBlend \
-m\_flBlendIn \
-m\_flCycle \
-m\_flPlaybackRate \
-m\_flPrevCycle \
-m\_flWeight \
-m\_flWeightDeltaRate \
-m\_nDispatchSequence \
-m\_nOrder \
+m\_bClientBlend\
+m\_flBlendIn\
+m\_flCycle\
+m\_flPlaybackRate\
+m\_flPrevCycle\
+m\_flWeight\
+m\_flWeightDeltaRate\
+m\_nDispatchSequence\
+m\_nOrder\
 m\_nSequence
 
 </details>
@@ -442,3 +442,5 @@ Returns the player model.
 | **value**       | **`vector`** | Prop value  |
 {% endtab %}
 {% endtabs %}
+
+### getting offset values
