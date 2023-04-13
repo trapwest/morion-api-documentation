@@ -95,7 +95,7 @@ m\_vOrigin\
 m\_vVelocityX\
 m\_vVelocityY
 
-#### :max\_desync\_delta
+**:max\_desync\_delta**
 
 `<anim_state>:max_desync_delta():` <mark style="color:purple;">`number`</mark>
 
@@ -450,3 +450,35 @@ Returns the player model.
 `<entity>:get_offset(offset: number):` <mark style="color:purple;">`offset_class`</mark>
 
 Returns the offset class.
+
+{% tabs %}
+{% tab title="int" %}
+`<entity>:get_offset(offset: number):get_int()`
+
+Returns the offset value in integer data type.
+{% endtab %}
+
+{% tab title="float" %}
+`<entity>:get_offset(offset: number):get_float()`
+
+Returns the offset value in float data type.
+{% endtab %}
+
+{% tab title="bool" %}
+`<entity>:get_offset(offset: number):get_bool()`
+
+Returns the offset value in boolean data type.
+{% endtab %}
+
+{% tab title="char" %}
+`<entity>:get_offset(offset: number):get_char()`
+
+Returns the offset value in char data type.
+{% endtab %}
+
+{% tab title="vector" %}
+`<entity>:get_offset(offset: number):get_vector()`
+
+Returns the offset value in vector data type.
+{% endtab %}
+{% endtabs %}
