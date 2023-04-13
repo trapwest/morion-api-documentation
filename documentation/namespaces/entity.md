@@ -445,6 +445,10 @@ Returns the player model.
 
 ### getting offset values
 
+{% hint style="info" %}
+available examples: [using offsets](../../other/examples/using-offsets.md)
+{% endhint %}
+
 ### :get\_offset
 
 `<entity>:get_offset(offset: number):` <mark style="color:purple;">`offset_class`</mark>

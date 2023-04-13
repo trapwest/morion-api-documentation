@@ -21,3 +21,4 @@
 
 * [📦 examples](other/examples/README.md)
   * [⚙ gui interaction](other/examples/gui-interaction.md)
+  * [⚙ using offsets](other/examples/using-offsets.md)
