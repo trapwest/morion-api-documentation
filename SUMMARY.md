@@ -10,6 +10,7 @@
   * [🗺 draw](documentation/namespaces/draw.md)
   * [👦 entity](documentation/namespaces/entity.md)
   * [🚂 engine](documentation/namespaces/engine.md)
+* [🗜 classes](documentation/classes.md)
 * [📓 enumerations](documentation/enumerations/README.md)
   * [📃 use\_font\_flags](documentation/enumerations/use\_font\_flags.md)
   * [📃 rounding](documentation/enumerations/rounding.md)
