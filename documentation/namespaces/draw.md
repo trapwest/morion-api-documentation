@@ -273,7 +273,7 @@ Render any text via the [`create_font` ](draw.md#create\_font)or [`create_weapon
 | **color**         | **`color`**   | Color of the image.       |
 | **rounding**      | **`number`**  | Optional. Image rounding. |
 
-### image
+### image\_quad
 
 `draw.image_quad(texture: texture, pos1: vector_2d, pos2: vector_2d, pos3: vector_2d, pos4: vector_2d[, color: color, rounding: number])`
 
