@@ -444,3 +444,9 @@ Returns the player model.
 {% endtabs %}
 
 ### getting offset values
+
+### :get\_offset
+
+`<entity>:get_offset(offset: number):` <mark style="color:purple;">`offset_class`</mark>
+
+Returns the offset class.
