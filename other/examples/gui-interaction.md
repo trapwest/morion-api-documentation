@@ -8,8 +8,9 @@ description: example of gui interaction
 to do something like this, you can refer to the [gui](../../documentation/namespaces/gui.md)
 {% endhint %}
 
-<pre class="language-lua"><code class="lang-lua"><strong>local cui = gui.begin({"Group 1", "Group 2", "Group 3", "Group 4"})
-</strong>
+```lua
+local cui = gui.begin({"Group 1", "Group 2", "Group 3", "Group 4"})
+
 local new_box = cui:new_checkbox("New box")
 local new_slider_float = cui:new_slider_float("New slider float", 0, 100)
 local new_slider_int = cui:new_slider_int("New slider int", 0, 100)
@@ -30,4 +31,4 @@ callbacks.init("on_paint", function()
         cheat.msg( "callback active" )
     end)
 end)
-</code></pre>
+```
