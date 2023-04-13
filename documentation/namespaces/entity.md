@@ -56,7 +56,7 @@ Returns all entities by class id.
 
 Returns the table of pointers to entities.
 
-## Classes:
+## classes:
 
 ### :get\_animstate
 
@@ -290,7 +290,7 @@ cheat.push_callback("on_frame_net", function(stage)
 end)
 ```
 
-Sets the values of the pose parameters.
+sets the values of the pose parameters.
 
 ### :draw\_hitbox
 
@@ -321,7 +321,7 @@ Sets the index of the model to the player.
 
 Returns the player model.
 
-## Getting prop values
+## getting prop values
 
 {% tabs %}
 {% tab title="int" %}
@@ -379,7 +379,7 @@ Returns the player model.
 {% endtab %}
 {% endtabs %}
 
-## Setting prop values
+## setting prop values
 
 {% tabs %}
 {% tab title="int" %}
