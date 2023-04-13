@@ -6,6 +6,7 @@
 Official CS:GO events
 {% endembed %}
 
+{% code lineNumbers="true" %}
 ```lua
 callbacks.init("on_event", function(event)
     if (event:get_name() == "player_hurt") then
@@ -13,6 +14,7 @@ callbacks.init("on_event", function(event)
     end
 end)
 ```
+{% endcode %}
 
 ## how to use callbacks:
 
@@ -20,31 +22,37 @@ end)
 
 Fired every frame. Most functions from the [draw ](draw.md)namespace can only be used here.
 
+{% code lineNumbers="true" %}
 ```lua
-callbacks.init("on_paint", function()
+callbacks.init('on_paint', function()
     draw.rect_filled(200, 200, 100, 20, color_rgb(255, 255, 255, 255))
 end)
 ```
+{% endcode %}
 
 ### on\_createmove
 
 Fired every time the game prepares a move command. Use the parameter passed by the callback to access the [`UserCmd`](callbacks-list.md#struct-usercmd).
 
+{% code lineNumbers="true" %}
 ```lua
-callbacks.init("on_createmove", function(cmd)
+callbacks.init('on_createmove', function(cmd)
     cmd.viewangles.z = 50
 end)
 ```
+{% endcode %}
 
 ### after\_prediction
 
 Use the parameter passed by the callback to access the [`UserCmd`](callbacks-list.md#struct-usercmd).
 
+{% code lineNumbers="true" %}
 ```lua
-callbacks.init("after_prediction", function(cmd)
+callbacks.init('after_prediction', function(cmd)
     cmd.viewangles.z = 50
 end)
 ```
+{% endcode %}
 
 #### 🔗 struct <mark style="color:blue;">`UserCmd`</mark>
 
@@ -63,23 +71,27 @@ end)
 Stages - [enum\_frames.md](../enumerations/enum\_frames.md "mention")
 {% endhint %}
 
+{% code lineNumbers="true" %}
 ```lua
-callbacks.init("on_frame_net", function(stage)
+callbacks.init('on_frame_net', function(stage)
     if (stage == enum_frames.frame_start) then
-        cheat.msg("frame_start")
+        cheat.msg('frame_start')
     end
 end)
 ```
+{% endcode %}
 
 ### on\_override\_view
 
 Fired every time the game prepares camera view.
 
+{% code lineNumbers="true" %}
 ```lua
-callbacks.init("on_override_view", function(view)
+callbacks.init('on_override_view', function(view)
     view.fov = 20
 end)
 ```
+{% endcode %}
 
 | Name               | Type         | Description |
 | ------------------ | ------------ | ----------- |
@@ -100,21 +112,25 @@ end)
 
 Fired when the script is about to unload.
 
+{% code lineNumbers="true" %}
 ```lua
-callbacks.init("on_unload", function()
-    cheat.msg("Script unloaded!")
+callbacks.init('on_unload', function()
+    cheat.msg('Script unloaded!')
 end)
 ```
+{% endcode %}
 
 ### on\_shot
 
 Fired every time the aimbot shoots at a player.
 
+{% code lineNumbers="true" %}
 ```lua
-callbacks.init("on_shot", function(shot_info)
+callbacks.init('on_shot', function(shot_info)
     cheat.msg(shot_info.target_name)
 end)
 ```
+{% endcode %}
 
 | Name               | Type         | Description                                |
 | ------------------ | ------------ | ------------------------------------------ |

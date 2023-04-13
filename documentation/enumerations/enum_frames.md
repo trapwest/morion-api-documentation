@@ -6,7 +6,7 @@
 ```lua
 callbacks.init('on_frame_net', function(stage)
     if stage == enum_frames.frame_start then
-
+        --- code
     end
 end)
 ```
