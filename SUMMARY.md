@@ -8,6 +8,7 @@
   * [🔌 callbacks](documentation/namespaces/callbacks.md)
   * [💻 gui](documentation/namespaces/gui.md)
   * [🗺 draw](documentation/namespaces/draw.md)
+  * [👦 entity](documentation/namespaces/entity.md)
   * [🚂 engine](documentation/namespaces/engine.md)
 * [📓 enumerations](documentation/enumerations/README.md)
   * [📃 use\_font\_flags](documentation/enumerations/use\_font\_flags.md)
