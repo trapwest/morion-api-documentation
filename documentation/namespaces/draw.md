@@ -1,7 +1,5 @@
 # 🗺 draw
 
-## Functions:
-
 ### world\_to\_screen
 
 `draw.world_to_screen(position: vector):` <mark style="color:purple;">`vector`</mark>
@@ -55,7 +53,7 @@ Returns the <mark style="color:purple;">`texture`</mark> or nil on failure.
 
 Returns the size of the text.
 
-## Structs
+## structures
 
 ### 🔗 <mark style="color:blue;">`font_object`</mark>
 
@@ -63,7 +61,7 @@ Returns the size of the text.
 
 `font.size:` <mark style="color:purple;">`number`</mark>
 
-## Draw functions
+## drawing
 
 ### blur
 
@@ -176,9 +174,9 @@ Returns the size of the text.
 | **radius** | **`number`** | Radius of the circle. |
 | **color**  | **`color`**  | Color of the circle.  |
 
-### glow\_circle
+### circle\_glow
 
-`draw.glow_circle(x: number, y: number, radius: number, color: color)`
+`draw.circle_glow(x: number, y: number, radius: number, color: color)`
 
 | Name       | Type         | Description           |
 | ---------- | ------------ | --------------------- |
