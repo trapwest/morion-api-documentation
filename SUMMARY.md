@@ -10,6 +10,7 @@
   * [🗺 draw](documentation/namespaces/draw.md)
   * [⛓ cheat](documentation/namespaces/cheat.md)
   * [🪛 utils](documentation/namespaces/utils.md)
+  * [👿 ragebot](documentation/namespaces/ragebot.md)
   * [👦 entity](documentation/namespaces/entity.md)
   * [🌐 gvars](documentation/namespaces/gvars.md)
   * [🚂 engine](documentation/namespaces/engine.md)
