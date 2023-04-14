@@ -68,7 +68,7 @@ Returns the state of the bind.
 
 ### set\_bind\_state
 
-`gui.get_bind_state(name: string, state: boolean)`
+`gui.set_bind_state(name: string, state: boolean)`
 
 | Name      | Type          | Description                              |
 | --------- | ------------- | ---------------------------------------- |

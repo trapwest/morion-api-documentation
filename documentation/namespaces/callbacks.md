@@ -25,7 +25,7 @@ Fired every frame. Most functions from the [draw ](draw.md)namespace can only be
 {% code lineNumbers="true" %}
 ```lua
 callbacks.init('on_paint', function()
-    draw.rect_filled(200, 200, 100, 20, color_rgb(255, 255, 255, 255))
+    draw.rect_filled(200, 200, 100, 20, color_rgba(255, 255, 255, 255))
 end)
 ```
 {% endcode %}
