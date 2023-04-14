@@ -24,6 +24,7 @@
   * [☁ steam](documentation/namespaces/steam.md)
   * [🛩 trace](documentation/namespaces/trace.md)
   * [🧱 materials](documentation/namespaces/materials.md)
+  * [✨ beam\_sys](documentation/namespaces/beam\_sys.md)
   * [🔡 base64](documentation/namespaces/base64.md)
 * [🗜 classes](documentation/classes.md)
 * [📓 enumerations](documentation/enumerations/README.md)
