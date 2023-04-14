@@ -132,14 +132,15 @@ end)
 ```
 {% endcode %}
 
-| Name               | Type         | Description                                |
-| ------------------ | ------------ | ------------------------------------------ |
-| **target\_name**   | **`string`** | Target name                                |
-| **result**         | **`string`** | Shot result                                |
-| **client\_hitbox** | **`string`** | Hitbox                                     |
-| **server\_hitbox** | **`string`** | Hitbox                                     |
-| **client\_damage** | **`number`** | Actual shot damage                         |
-| **server\_damage** | **`number`** | Actual shot damage                         |
-| **hitchance**      | **`number`** | Actual shot hit chance                     |
-| **backtrack**      | **`number`** | Amount of ticks the player was backtracked |
-| **aim\_point**     | **`string`** | Actual shot aim point                      |
+| Name               | Type          | Description                                |
+| ------------------ | ------------- | ------------------------------------------ |
+| **target\_name**   | **`string`**  | Target name                                |
+| **target\_index**  | **`integer`** | Target index                               |
+| **result**         | **`string`**  | Shot result                                |
+| **client\_hitbox** | **`string`**  | Hitbox                                     |
+| **server\_hitbox** | **`string`**  | Hitbox                                     |
+| **client\_damage** | **`number`**  | Actual shot damage                         |
+| **server\_damage** | **`number`**  | Actual shot damage                         |
+| **hitchance**      | **`number`**  | Actual shot hit chance                     |
+| **backtrack**      | **`number`**  | Amount of ticks the player was backtracked |
+| **aim\_point**     | **`string`**  | Actual shot aim point                      |
