@@ -38,7 +38,7 @@ Returns an item from the menu that has been assigned the float data type.
 
 ### menu\_color
 
-`gui.menu_float(name: string):` <mark style="color:purple;">`menu_element`</mark>
+`gui.menu_color(name: string):` <mark style="color:purple;">`menu_element`</mark>
 
 | Name     | Type         | Description         |
 | -------- | ------------ | ------------------- |
