@@ -8,6 +8,8 @@
   * [🔌 callbacks](documentation/namespaces/callbacks.md)
   * [💻 gui](documentation/namespaces/gui.md)
   * [🗺 draw](documentation/namespaces/draw.md)
+  * [⛓ cheat](documentation/namespaces/cheat.md)
+  * [🪛 utils](documentation/namespaces/utils.md)
   * [👦 entity](documentation/namespaces/entity.md)
   * [🌐 gvars](documentation/namespaces/gvars.md)
   * [🚂 engine](documentation/namespaces/engine.md)
