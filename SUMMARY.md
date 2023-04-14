@@ -9,6 +9,7 @@
   * [💻 gui](documentation/namespaces/gui.md)
   * [🗺 draw](documentation/namespaces/draw.md)
   * [👦 entity](documentation/namespaces/entity.md)
+  * [🌐 gvars](documentation/namespaces/gvars.md)
   * [🚂 engine](documentation/namespaces/engine.md)
 * [🗜 classes](documentation/classes.md)
 * [📓 enumerations](documentation/enumerations/README.md)
