@@ -41,7 +41,7 @@ Returns the server ip.
 
 Returns the time specified on the computer.
 
-### get\_winuser
+### get\_win\_username
 
 `gvars.get_win_username():` <mark style="color:purple;">`string`</mark>
 
