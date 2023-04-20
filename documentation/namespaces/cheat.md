@@ -1,5 +1,11 @@
 # ⛓ cheat
 
+### get_user_name
+
+`cheat.get_user_name()`
+
+Returns cheat username.
+
 ### msg
 
 `cheat.msg(str: string)`
