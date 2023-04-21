@@ -110,7 +110,7 @@ Returns the size of the text.
 
 ### rect
 
-`draw.rect(x: number, y: number, width: number, height: number, color: color[, rounding: number, rounding_corners: number])`
+`draw.rect(x: number, y: number, width: number, height: number, color: color[, thickness: number, rounding: number, rounding_corners: number])`
 
 | Name                  | Type         | Description                                                                      |
 | --------------------- | ------------ | -------------------------------------------------------------------------------- |
@@ -119,6 +119,7 @@ Returns the size of the text.
 | **width**             | **`number`** | Width.                                                                           |
 | **height**            | **`number`** | Height.                                                                          |
 | **color**             | **`color`**  | Color of the rectangle.                                                          |
+| **thickness**          | **`number`** | Optional. Thickness of the rectangle.                                   |
 | **rounding**          | **`number`** | Optional. Rounding of the rectangle in pixels.                                   |
 | **rounding\_corners** | **`number`** | Optional. Rounds off certain corners. [`rounding`](../enumerations/rounding.md)  |
 
