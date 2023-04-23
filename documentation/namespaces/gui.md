@@ -46,6 +46,15 @@ Returns an item from the menu that has been assigned the float data type.
 
 Returns an item from the menu that has been assigned the color data type.
 
+### get\_binds
+
+`gui.get_binds():` <mark style="color:purple;">`array`</mark>
+
+| Name       | Type          | Description |
+| ---------- | ------------- | ----------- |
+| **active** | **`boolean`** | Bind state  |
+| **name**   | **`string`**  | Bind name   |
+
 ### get\_bind\_mode
 
 `gui.get_bind_mode(name: string):` <mark style="color:purple;">`number`</mark>
