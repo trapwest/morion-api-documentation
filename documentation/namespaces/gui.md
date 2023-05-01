@@ -54,6 +54,7 @@ Returns an item from the menu that has been assigned the color data type.
 | ---------- | ------------- | ----------- |
 | **active** | **`boolean`** | Bind state  |
 | **name**   | **`string`**  | Bind name   |
+| **mode**   | **`string`**  | Bind mode   |
 
 ### get\_bind\_mode
 
