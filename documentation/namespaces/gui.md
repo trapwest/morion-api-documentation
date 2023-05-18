@@ -48,7 +48,7 @@ Returns an item from the menu that has been assigned the color data type.
 
 ### get\_binds
 
-`gui.get_binds():` <mark style="color:purple;">`array`</mark>
+`gui.get_binds([ show_from_scripts: bool ]):` <mark style="color:purple;">`array`</mark>
 
 | Name       | Type          | Description |
 | ---------- | ------------- | ----------- |
