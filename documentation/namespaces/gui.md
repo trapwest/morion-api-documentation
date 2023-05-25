@@ -138,6 +138,16 @@ Creates a group with gui elements.
 | **name**  | **`string`** | Element name. |
 | **items** | **`string`** | Combo items.  |
 
+
+### :new\_multi\_combo
+
+`group:new_multi_combo(name: string, items: {, ...}):` <mark style="color:purple;">`menu_element`</mark>
+
+| Name      | Type         | Description   |
+| --------- | ------------ | ------------- |
+| **name**  | **`string`** | Element name. |
+| **items** | **`string`** | Multi combo items.  |
+
 ### :new\_slider\_int
 
 `group:new_slider_int(name: string, min: number, max: number):` <mark style="color:purple;">`menu_element`</mark>
@@ -215,7 +225,7 @@ Returns the name of the menu element.
 
 `element:get_items():` <mark style="color:purple;">`table`</mark>
 
-Returns the list of items. [`new_combo`](gui.md#new\_combo) / [`new_list`](gui.md#new\_label) menu element objects only.
+Returns the list of items. [`new_combo`](gui.md#new\_combo) / [`new_list`](gui.md#new\_label) / [`new_multi_combo`](gui.md#new\_multi\_combo) menu element objects only.
 
 ### :get\_mode
 
@@ -241,7 +251,7 @@ Sets the value of the menu element.
 | --------- | ------------ | ------------------------- |
 | **items** | **`string`** | Table with string values. |
 
-Sets a table with items. [`new_combo`](gui.md#new\_combo) / [`new_list`](gui.md#new\_list) menu element objects only.
+Sets a table with items. [`new_combo`](gui.md#new\_combo) / [`new_list`](gui.md#new\_list) / [`new_multi_combo`](gui.md#new\_multi\_combo) menu element objects only.
 
 ### :set\_tooltip
 
