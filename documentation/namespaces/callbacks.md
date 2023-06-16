@@ -143,4 +143,4 @@ end)
 | **server\_damage** | **`number`**  | Actual shot damage                         |
 | **hitchance**      | **`number`**  | Actual shot hit chance                     |
 | **backtrack**      | **`number`**  | Amount of ticks the player was backtracked |
-| **aim\_point**     | **`string`**  | Actual shot aim point                      |
+| **aim\_point**     | **`vector`**  | Actual shot aim point                      |
