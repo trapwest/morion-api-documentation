@@ -24,53 +24,53 @@ local new_vec_length = new_vec:length()
 local dist = new_vec:dist_to(sec_vec)
 ```
 
-####
 
-#### Functions:
 
-#### :length
+**Functions:**
+
+**:length**
 
 `vec_object:length():` <mark style="color:purple;">`number`</mark>
 
 Returns the length of the vector.
 
-#### :length\_sqr
+**:length\_sqr**
 
 `vec_object:length_sqr():` <mark style="color:purple;">`number`</mark>
 
 Returns the squared length of the vector.
 
-#### :length\_2d
+**:length\_2d**
 
 `vec_object:length_2d():` <mark style="color:purple;">`number`</mark>
 
 Returns the length of the vector in two dimensions, without the Z axis.
 
-#### :length\_2d\_sqr
+**:length\_2d\_sqr**
 
 `vec_object:length_2d_sqr():` <mark style="color:purple;">`number`</mark>
 
 Returns the squared length of the vectors x and y value.
 
-#### :is\_zero
+**:is\_zero**
 
 `vec_object:is_zero():` <mark style="color:purple;">`boolean`</mark>
 
 Returns <mark style="color:green;">`true`</mark>, if all coordinates of the vector are zero.
 
-#### :is\_valid
+**:is\_valid**
 
 `vec_object:is_valid():` <mark style="color:purple;">`boolean`</mark>
 
 Returns <mark style="color:green;">`true`</mark>, if the vector is valid.
 
-#### :zero
+**:zero**
 
 `vec_object:zero():` <mark style="color:purple;">`vector`</mark>
 
 Sets zero values to the vector.
 
-#### :dist\_to
+**:dist\_to**
 
 `vec_object:dist_to(vec_end: vector):` <mark style="color:purple;">`number`</mark>
 
@@ -80,7 +80,7 @@ Sets zero values to the vector.
 
 Returns the distance between the two given vectors.
 
-#### :dist\_to\_sqr
+**:dist\_to\_sqr**
 
 `vec_object:dist_to_sqr(vec_end: vector):` <mark style="color:purple;">`number`</mark>
 
@@ -90,7 +90,7 @@ Returns the distance between the two given vectors.
 
 Returns the squared distance to another vector.
 
-#### :cross\_product
+**:cross\_product**
 
 `vec_object:cross_product(vec_end: vector):` <mark style="color:purple;">`vector`</mark>
 
@@ -100,11 +100,17 @@ Returns the squared distance to another vector.
 
 Returns the cross product of two given vectors.
 
-#### :normalize
+**:normalize**
 
 `vec_object:normalize():` <mark style="color:purple;">`number`</mark>
 
 Normalizes the vector and returns the length of the vector.
+
+#### :tostring
+
+`vec_object:tostring():` <mark style="color:purple;">`string`</mark>
+
+Converts a vector to a string
 {% endtab %}
 
 {% tab title="vector_2d" %}

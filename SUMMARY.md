@@ -45,3 +45,7 @@
 * [📦 examples](other/examples/README.md)
   * [⚙ gui interaction](other/examples/gui-interaction.md)
   * [⚙ using offsets](other/examples/using-offsets.md)
+* [📚 cloud libraries](other/cloud-libraries/README.md)
+  * [📖 drag-drop](other/cloud-libraries/drag-drop.md)
+  * [📖 simple-animations](other/cloud-libraries/simple-animations.md)
+  * [📖 string-gradient](other/cloud-libraries/string-gradient.md)

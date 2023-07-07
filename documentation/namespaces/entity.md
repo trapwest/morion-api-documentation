@@ -315,6 +315,12 @@ Draws a specific player hitbox.
 
 Sets the index of the model to the player.
 
+### :get\_avatar\_texture
+
+`<entity>:get_avatar_texture():` <mark style="color:purple;">`image`</mark>
+
+Returns the texture of the player's avatar.
+
 ### :get\_model
 
 `<entity>:get_model():` <mark style="color:purple;">`model`</mark>

@@ -26,9 +26,7 @@ Replaces contents of the specified file
 
 `file.read(path: string):` <mark style="color:purple;">`string`</mark>
 
-| Name     | Type         | Description |
-| -------- | ------------ | ----------- |
-| **path** | **`string`** | path        |
+<table><thead><tr><th width="297.3333333333333">Name</th><th>Type</th><th>Description</th></tr></thead><tbody><tr><td><strong>path</strong></td><td><strong><code>string</code></strong></td><td>path</td></tr></tbody></table>
 
 Returns contents of the specified file.
 
